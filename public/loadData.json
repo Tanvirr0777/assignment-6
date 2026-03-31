@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeAI Builder",
+    "description": "Create professional resumes using AI.\nOptimized for ATS and recruiters.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "FileText",
+    "image": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/689394b6f9eb0c3b759dad53/747162aa5_NewResumeAI_Logo_Nobackground.png"
+  },
+  {
+    "id": 2,
+    "name": "CoverLetter GPT",
+    "description": "Generate tailored cover letters instantly.\nCustomize tone and job role.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Job-specific generation",
+      "Tone customization",
+      "Editable drafts",
+      "Download as DOCX"
+    ],
+    "icon": "Mail",
+    "image": "https://cdn-icons-png.flaticon.com/512/561/561127.png"
+  },
+  {
+    "id": 3,
+    "name": "Interview Coach AI",
+    "description": "Practice interviews with AI.\nGet instant feedback on answers.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Mock interview questions",
+      "Voice response analysis",
+      "Score improvement tips",
+      "Industry-specific questions"
+    ],
+    "icon": "Mic",
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920349.png"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Generator",
+    "description": "Build personal portfolios with AI.\nDeploy instantly with hosting.",
+    "price": 29,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Custom themes",
+      "AI bio generator",
+      "One-click deploy",
+      "Responsive design"
+    ],
+    "icon": "Globe",
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+  },
+  {
+    "id": 5,
+    "name": "AI Code Reviewer",
+    "description": "Review and improve your code.\nSupports multiple languages.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Bug detection",
+      "Performance suggestions",
+      "Security analysis",
+      "Multi-language support"
+    ],
+    "icon": "Code",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0EMVXiQsxBnjxj8a4nqAlij3bofEd0rvtxQ&s"
+  },
+  {
+    "id": 6,
+    "name": "AI Presentation Maker",
+    "description": "Create slides from prompts.\nAuto design and layout.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Auto slide generation",
+      "Smart layouts",
+      "Export to PPT",
+      "Image generation"
+    ],
+    "icon": "Presentation",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMCivP8goRZ1IXTGcHNwe5_yNqTySbM0IJQw&s"
+  }
+]
