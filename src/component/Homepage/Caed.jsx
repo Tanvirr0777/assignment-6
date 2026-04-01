@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { IoMdCheckmark } from 'react-icons/io';
+import { toast } from 'react-toastify';
 
 const Caed = ({digital,carts,setCarts}) => {
 
@@ -8,6 +9,7 @@ const Caed = ({digital,carts,setCarts}) => {
     const handleBuy = () => {
          setIsBuyNow(true);
          setCarts([...carts,digital]);
+         toast(digital.name +" "+"added sucessfully");
     }
 
 
