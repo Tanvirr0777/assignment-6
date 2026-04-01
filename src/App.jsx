@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import Banner from './component/Banner/Banner'
 import Footer from './component/Footer/Footer'
@@ -5,23 +6,34 @@ import Homepage from './component/Homepage/Homepage'
 import Navbar from './component/Navbar/Navbar'
 
 
-const getDigiData = async () =>{
+    const getDigiData = async () =>{
       const res = await fetch("/public/loadData.json");
 
       return res.json();
-}
+   }
 
-const digiPromise = getDigiData();
+    const digiPromise = getDigiData();
+
+    
 
 
 function App() {
+
+      const [carts,setCarts] = useState([]);
  
   return (
     <div className='w-11/12 mx-auto'>
-          <Navbar />
+         
+          <Navbar 
+            carts={carts}
+            />
+
           <Banner />
           
-          <Homepage digiPromise={digiPromise} />
+          <Homepage digiPromise={digiPromise}
+                    carts={carts}
+                    setCarts={setCarts}
+           />
 
 
            

@@ -5,8 +5,8 @@ import { IoRocketOutline } from 'react-icons/io5';
 
 const Step = () => {
     return (
-        <div className='my-7 text-center space-y-5 mt-5'>
-               <h1 className='text-3xl font-bold'>Get Started in 3 steps</h1>
+        <div className='my-7 text-center space-y-5 mt-15'>
+               <h1 className='text-5xl font-bold'>Get Started in 3 steps</h1>
 
                <p className='text-gray-500'>Start using premium digital tools in minutes, not hours.</p>
 

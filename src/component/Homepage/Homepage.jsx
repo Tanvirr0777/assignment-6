@@ -5,16 +5,17 @@ import Step from '../Step';
 import Workflow from '../Workflow';
 
 
-const Homepage = ({digiPromise}) => {
+const Homepage = ({digiPromise,carts,setCarts}) => {
     return (
-        <div>
+        <div className=''>
             <UserNum />
 
-            <DigiItems digiPromise={digiPromise} />
+            <DigiItems digiPromise={digiPromise} 
+                        carts={carts}
+                        setCarts={setCarts}
+            />
            
-            <Step />
-
-            <Workflow />
+           
 
         </div>
     );

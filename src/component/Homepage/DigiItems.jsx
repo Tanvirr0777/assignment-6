@@ -5,13 +5,11 @@ import Avlpro from './Avlpro';
 
 
 
-const DigiItems = ({digiPromise}) => {
+const DigiItems = ({digiPromise,carts,setCarts}) => {
 
     const digitals = use(digiPromise);
 
     const [select,setSelect] = useState("products");
-
-    const [carts,setCarts] = useState([]);
 
 
     return (

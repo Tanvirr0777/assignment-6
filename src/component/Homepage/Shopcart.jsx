@@ -17,6 +17,10 @@ const Shopcart = ({carts,setCarts}) => {
               setCarts(filterProduct);  
   }
 
+  const procedCart = () => {
+       setCarts([]);
+  }
+
     return (
         <div className='text-center rounded-xl border mt-6 p-5'>
             <h2 className='text-3xl font-bold mb-6 text-left mt-4'>Your Cart</h2>
@@ -62,7 +66,8 @@ const Shopcart = ({carts,setCarts}) => {
             </div>
 
 
-            <button className='btn w-[90%] rounded-3xl
+            <button onClick={procedCart}
+             className='btn w-[90%] rounded-3xl
              bg-linear-to-r from-blue-500 to-purple-600 text-white
             '>Proced To Checkout</button>
 

@@ -1,8 +1,12 @@
 import React from 'react';
+import Shopcart from '../Homepage/Shopcart';
 
-const Navbar = () => {
+
+const Navbar = ({carts}) => {
+
+  
     return (
-        <div>
+        <div className='sticky top-0 bg-white'>
                <div className="navbar mb-5">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-xl">
@@ -32,8 +36,14 @@ const Navbar = () => {
       </div>
       <div className="navbar-end flex gap-5">
         
-         <div>
-             <img src="/src/assets/shopping-cart.png" alt="shopping_cart" />
+         <div className='relative'>
+             <img className='w-6' src="/src/assets/shopping-cart.png" alt="shopping_cart" />
+
+             <div className='bg-red-500 text-white rounded-full w-6
+                             absolute -top-4 left-3
+                 '>
+                 <p className='text-center'>{carts.length}</p>
+             </div>
          </div>
           
           <div>Login</div>
