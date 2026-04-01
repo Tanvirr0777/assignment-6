@@ -1,27 +1,34 @@
 import React, { useState } from 'react';
 import { IoMdCheckmark } from 'react-icons/io';
 
-const Caed = ({digital}) => {
+const Caed = ({digital,carts,setCarts}) => {
 
     const [isBuyNow,setIsBuyNow] = useState(false);
 
     const handleBuy = () => {
          setIsBuyNow(true);
+         setCarts([...carts,digital]);
     }
 
 
     return (
-        <div key={digital.id} className='relative border rounded-2xl p-2 space-y-3 shadow-lg'>        
+        <div key={digital.id} className='border rounded-2xl p-2 space-y-3 shadow-lg'>        
                          
-                          <div className=''>
-                            <img className='h-12 w-12 rounded-xl my-5'
-                            src={digital.image} alt="" />
+                          <div className='flex justify-between'>
+                            <div>
+                                <img className='h-12 w-12 rounded-xl my-5'
+                            src={digital.image} alt={digital.name} />
+
+                            </div>
+
+                             <div className='rounded-2xl border w-25
+                              text-center h-8 font-bold'>
+                               {digital.tag} </div>
+
+
                           </div>
                             
-                             <div className='absolute rounded-xl border w-25
-                              text-center px-1 top-3 left-65 font-bold'>
-                            {digital.tag} </div>
-
+                            
                           <div>
                                <h2 className='text-2xl font-bold mb-2'>{digital.name}</h2>
                                <p className='mb-2 text-[#627382]'>{digital.description}</p>
@@ -29,9 +36,9 @@ const Caed = ({digital}) => {
 
                                <div className='mb-4'>
                                     {digital.features.map((feature,index) =>   
-                                      <ul className='flex items-center gap-1'>
+                                      <ul key={index} className='flex items-center gap-1'>
                                         <IoMdCheckmark  className='text-green-500' />
-                                        <li key={index} className='text-[#627382]'>{feature}</li>
+                                        <li  className='text-[#627382]'>{feature}</li>
                                       </ul>
                                     )}
                                </div>

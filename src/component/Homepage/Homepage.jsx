@@ -10,7 +10,7 @@ const Homepage = ({digiPromise}) => {
 
             <DigiItems digiPromise={digiPromise} />
            
-
+            
 
         </div>
     );

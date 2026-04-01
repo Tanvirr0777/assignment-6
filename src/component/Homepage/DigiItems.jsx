@@ -11,6 +11,9 @@ const DigiItems = ({digiPromise}) => {
 
     const [select,setSelect] = useState("products");
 
+    const [carts,setCarts] = useState([]);
+
+
     return (
         <div className=''>
 
@@ -32,7 +35,7 @@ const DigiItems = ({digiPromise}) => {
                                className={`btn  ${select == "cart" ?
                                 "text-white bg-linear-to-r  from-blue-500 to-purple-600" : "text-blue-500 border-blue-500"
                                } rounded-full`}>   
-                                       Cart (0)</a>
+                                       Cart ({carts.length})</a>
                                   </div>
                   </div>
 
@@ -42,9 +45,15 @@ const DigiItems = ({digiPromise}) => {
 
               {
                 select === "products" ?
-                <Avlpro digitals={digitals} />:
-                <Shopcart /> 
-                
+                <Avlpro 
+                    digitals={digitals}
+                    carts={carts}
+                    setCarts={setCarts}
+                 />:
+                <Shopcart
+                   carts={carts}
+                   setCarts={setCarts}
+                   />       
              } 
 
         </div>
