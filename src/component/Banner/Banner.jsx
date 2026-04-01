@@ -4,7 +4,7 @@ import { RxResume } from 'react-icons/rx';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='mb-10 '>
         <div className="relative min-h-162.5 flex items-center overflow-hidden">
       <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center relative z-10">
        
@@ -48,7 +48,7 @@ const Banner = () => {
           <div className="relative">
             <img
               className="relative h-130 w-auto object-contain 
-              drop-shadow-2xl rounded-3xl "
+              drop-shadow-2xl rounded-3xl hidden md:block "
               src="/src/assets/banner.png"
               alt="AI Models Banner"
             />

@@ -3,11 +3,12 @@ import { FaFacebook, FaInstagram, FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <div>
+        <div className=''>
             
     <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10 mt-10">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="flex justify-between">
+      <div className="max-w-7xl mx-auto px-6 ">
+
+        <div className="grid grid-cols-2 gap-10 lg:grid-cols-15">
             
          
           <div className="md:col-span-5">

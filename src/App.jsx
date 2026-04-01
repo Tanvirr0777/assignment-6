@@ -22,7 +22,7 @@ function App() {
       const [carts,setCarts] = useState([]);
  
   return (
-    <div className='w-11/12 mx-auto'>
+    <div className='w-[100 %] mx-auto lg:w-11/12'>
          
           <Navbar 
             carts={carts}

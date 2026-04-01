@@ -3,11 +3,11 @@ import { IoMdCheckmark } from 'react-icons/io';
 
 const Simple = () => {
     return (
-        <div className='mt-20 mb-10'>
+        <div className='mt-20 mb-20'>
              <h2 className='text-5xl font-bold text-center mb-3'>Simple, Transparent Pricing</h2>
              <p className='text-gray-500 text-center'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 
-             <div className='mt-8  grid grid-cols-1 gap-5 md:grid-cols-3'>
+             <div className='mt-8 grid grid-cols-1 gap-10 md:grid-cols-3'>
 
                    <div className='border shadow-lg p-5 space-y-4 rounded-xl text-center'>
                        <h2 className='text-2xl font-bold text-left'>Starter</h2>

@@ -10,7 +10,8 @@ const Step = () => {
 
                <p className='text-gray-500'>Start using premium digital tools in minutes, not hours.</p>
 
-               <div className='flex justify-between gap-4 text-center'>
+               <div className='grid gird-cols-1 gap-4 text-center md:grid-cols-2
+               lg:grid-cols-3'>
 
                     <div className='border rounded-xl space-y-4 p-4 relative'>
                         <div className='w-[25%] mx-auto p-2 rounded-full bg-gray-200 mt-10'>
@@ -19,7 +20,7 @@ const Step = () => {
                         <h2 className='text-xl font-bold'>Create Account</h2>
                         <p className='text-gray-500'>Sign up for free in seconds. No credit card required to get started.</p>
 
-                      <div className='bg-purple-500 w-8 absolute top-5 left-85 
+                      <div className='bg-purple-500 w-10 absolute top-[3%] left-[80%] 
                       rounded-full text-white'>
                           1
                       </div>
@@ -33,7 +34,7 @@ const Step = () => {
                         <h2 className='text-xl font-bold'>Choose Products</h2>
                         <p className='text-gray-500'>Browse our catalog and select the toolsthat fit your needs.</p>
 
-                        <div className='bg-purple-500 w-8 absolute top-5 left-80 
+                        <div className='bg-purple-500 w-10 absolute top-[3%] left-[80%] 
                       rounded-full text-white'>
                           2
                       </div>
@@ -47,7 +48,7 @@ const Step = () => {
                      <h2 className='text-xl font-bold'>Start Creating</h2>
                      <p className='text-gray-500'>Download and start using your premium tools immediately.</p>
                 
-                   <div className='bg-purple-500 w-8 absolute top-5 left-80
+                   <div className='bg-purple-500 w-10 absolute top-[3%] left-[80%]
                       rounded-full text-white'>
                           3
                       </div>

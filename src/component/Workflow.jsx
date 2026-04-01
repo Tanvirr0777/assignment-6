@@ -2,7 +2,7 @@ import React from 'react';
 
 const Workflow = () => {
     return (
-        <div className='bg-linear-to-r from-blue-500 to-purple-600 my-10 text-center space-y-5 p-8'>
+        <div className='bg-linear-to-r from-blue-500 to-purple-600 my-10 text-center space-y-5 p-8 mb-20'>
          
          <h1 className='text-3xl text-white font-bold'>Ready to Transform Your Workflow?</h1>
          <p className='text-white opacity-[80%]'>Join thousands of professionals who are already using Digitools to work smarter.<br /> Start your free trial today.</p>
