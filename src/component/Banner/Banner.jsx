@@ -49,7 +49,7 @@ const Banner = () => {
             <img
               className="relative h-130 w-auto object-contain 
               drop-shadow-2xl rounded-3xl hidden md:block "
-              src="/src/assets/banner.png"
+              src="/banner.png"
               alt="AI Models Banner"
             />
           </div>

@@ -37,7 +37,7 @@ const Navbar = ({carts}) => {
       <div className="navbar-end flex gap-5">
         
          <div className='relative'>
-             <img className='w-6' src="/src/assets/shopping-cart.png" alt="shopping_cart" />
+             <img className='w-6' src="shopping-cart.png" alt="shopping_cart" />
 
              <div className='bg-red-500 text-white rounded-full w-6
                              absolute -top-4 left-3
