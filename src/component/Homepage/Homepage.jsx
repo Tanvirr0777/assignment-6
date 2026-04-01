@@ -1,6 +1,8 @@
 import React from 'react';
 import UserNum from './UserNum';
 import DigiItems from './DigiItems';
+import Step from '../Step';
+import Workflow from '../Workflow';
 
 
 const Homepage = ({digiPromise}) => {
@@ -10,7 +12,9 @@ const Homepage = ({digiPromise}) => {
 
             <DigiItems digiPromise={digiPromise} />
            
-            
+            <Step />
+
+            <Workflow />
 
         </div>
     );

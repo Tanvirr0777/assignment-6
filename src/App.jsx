@@ -3,7 +3,6 @@ import Banner from './component/Banner/Banner'
 import Footer from './component/Footer/Footer'
 import Homepage from './component/Homepage/Homepage'
 import Navbar from './component/Navbar/Navbar'
-import Workflow from './component/Workflow'
 
 
 const getDigiData = async () =>{
@@ -25,8 +24,7 @@ function App() {
           <Homepage digiPromise={digiPromise} />
 
 
-           <Workflow />
-
+           
           <Footer />
     </div>
   )
