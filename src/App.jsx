@@ -7,7 +7,7 @@ import Navbar from './component/Navbar/Navbar'
 
 
     const getDigiData = async () =>{
-      const res = await fetch("/public/loadData.json");
+      const res = await fetch("/loadData.json");
 
       return res.json();
    }
